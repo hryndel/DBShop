@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/notes"
+        android:title="@string/notes"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notes"/>
+
+    <item
+        android:id="@+id/shop_list"
+        android:title="@string/shop_list"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_shop"/>
+
+    <item
+        android:id="@+id/new_item"
+        android:title="@string/new_item"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_new"/>
+</menu>
